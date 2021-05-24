@@ -1,10 +1,10 @@
-package logrus_test
+package logrus2_test
 
 import (
 	"log"
 	"net/http"
 
-	"github.com/szark/logrus"
+	"github.com/szark/logrus2"
 )
 
 func ExampleLogger_Writer_httpServer() {

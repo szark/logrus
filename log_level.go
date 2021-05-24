@@ -1,4 +1,4 @@
-package logrus
+package logrus2
 
 // Copied from log/syslog as that package is not available on windows.
 

@@ -1,11 +1,11 @@
-package logrus_test
+package logrus2_test
 
 import (
 	"bytes"
 	"encoding/json"
 	"testing"
 
-	"github.com/szark/logrus"
+	"github.com/szark/logrus2"
 	"github.com/stretchr/testify/require"
 )
 

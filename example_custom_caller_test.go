@@ -1,4 +1,4 @@
-package logrus_test
+package logrus2_test
 
 import (
 	"os"
@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/szark/logrus"
+	"github.com/szark/logrus2"
 )
 
 func ExampleJSONFormatter_CallerPrettyfier() {

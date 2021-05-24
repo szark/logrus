@@ -1,6 +1,6 @@
-package logrus
+package logrus2
 
-// Portions of this files were taken from https://github.com/szark/logrus
+// Portions of this files were taken from https://github.com/szark/logrus2
 // Copyrighted by Simon Eskildsen under the MIT license
 
 import (

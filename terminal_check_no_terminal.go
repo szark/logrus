@@ -1,6 +1,6 @@
 // +build js nacl plan9
 
-package logrus
+package logrus2
 
 import (
 	"io"

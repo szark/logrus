@@ -1,6 +1,6 @@
 // +build appengine
 
-package logrus
+package logrus2
 
 import (
 	"io"

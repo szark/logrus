@@ -1,7 +1,7 @@
 // +build darwin dragonfly freebsd netbsd openbsd
 // +build !js
 
-package logrus
+package logrus2
 
 import "golang.org/x/sys/unix"
 

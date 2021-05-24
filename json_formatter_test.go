@@ -1,4 +1,4 @@
-package logrus
+package logrus2
 
 import (
 	"encoding/json"

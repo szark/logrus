@@ -1,13 +1,13 @@
 // +build !windows
 
-package logrus_test
+package logrus2_test
 
 import (
 	"log/syslog"
 	"os"
 
-	"github.com/szark/logrus"
-	slhooks "github.com/szark/logrus/hooks/syslog"
+	"github.com/szark/logrus2"
+	slhooks "github.com/szark/logrus2/hooks/syslog"
 )
 
 // An example on how to use a hook

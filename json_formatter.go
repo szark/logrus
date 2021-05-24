@@ -1,4 +1,4 @@
-package logrus
+package logrus2
 
 import (
 	"bytes"
@@ -66,7 +66,7 @@ func (f *JSONFormatter) Format(entry *Entry) ([]byte, error) {
 		switch v := v.(type) {
 		case error:
 			// Otherwise errors are ignored by `encoding/json`
-			// https://github.com/szark/logrus/issues/137
+			// https://github.com/szark/logrus2/issues/137
 			data[k] = v.Error()
 		default:
 			data[k] = v

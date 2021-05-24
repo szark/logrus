@@ -1,9 +1,9 @@
-package logrus_test
+package logrus2_test
 
 import (
 	"os"
 
-	"github.com/szark/logrus"
+	"github.com/szark/logrus2"
 )
 
 func Example_basic() {
